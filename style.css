@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-left{
+    position: absolute;
+    display: inline-block;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 68px;
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);  
+}
+.header-left-name{
+    position: absolute;
+    left: 9.09%;
+    /* right: 10%; */
+    top: 0%;
+    bottom: 0%;
+    display: inline-block;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+/* .header-right{
+    position: absolute;
+    width: 1146px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+    display: inline-block;
+    background: #FDF1EB;
+    }
+.header-right-title{
+    position: absolute;
+width: 391px;
+height: 16px;
+left: 36px;
+top: 5px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+color: #725C5C;
+}
+.header-right-language{
+    position: absolute;
+    width: 97px;
+    height: 34px;
+    left: 789px;
+    top: 17px;
+    
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.header-right-about{
+    position: absolute;
+    width: 163px;
+    height: 15px;
+    left: 908px;
+    top: 36px;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    
+    /* identical to box height */
+    text-align: right;
+    
+    color: #333333;
+}
+.header-right-img{
+    position: absolute;
+left: 93.28%;
+right: 2.53%;
+top: 27.94%;
+bottom: 27.94%;
+
+/* background: url(pessoa-que-nao-existe.jpg); */
+
+} */
