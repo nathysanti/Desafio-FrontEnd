@@ -102,8 +102,6 @@ header{
 }
 .user-img{
     border-radius: 50px;
-    
-
 }
 .first{
     display: flex;
@@ -112,21 +110,15 @@ header{
     margin-left: 250px;
 }
 .conteudo{
-    /* display: flex;
-    flex-direction: column; */
     background: #FFFFFF;
     float: right;
     color: #ED7839;
-
-
 }
 .video{
     width: 783px;
     height: 439px;
 }
-.conteudo-rigth{
-    margin-left: -100px;
-}
+
 .botao{
     background: #ED7839;
     border-radius: 4px;
@@ -159,13 +151,172 @@ header{
     color: #5C5C5C;
 }
 .resumo{
-    display: flex;
     width: 1058px;
-    height: 189px;
+    position: relative;
     left: 0px;
-   float: left;
+    margin-left: 250px;
 
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px;
 }
+.resumo-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    height: 45px;
+    color: #4E4E4E;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+}
+.resumo-parcial{
+    position: static;
+    padding: 10px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+
+    color: #5C5C5C;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+#mais,#topicoEnviado,#novoTopico,#outroTopico{
+    display: none;
+}
+#vejaMais{
+    color: #ED7839;
+}
+.discusoes{
+    width: 1058px;
+    
+    left: 0px;
+    margin-left: 250px;
+    
+
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    position: absolute;
+}
+.discusoes-title{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+
+    
+
+    color: #4E4E4E;
+
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    height: 45px;
+    width: 1058px;
+}
+.discusoes-title2{
+    
+    
+    top: 50%;
+    bottom: 39%;
+    padding-bottom: 30px;
+    text-align:center ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #ED7839;
+
+}
+.icon{
+
+    position: relative;
+    left: 37.72%;
+    right: 43.72%;
+    padding-bottom: 40px;
+    padding-right: 35px;
+    justify-content: space-around;
+  
+}
+.discusoes-title3,.discusoes-title4,.discusoes-title5{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #595959;
+}
+.discusoes-title6{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color:#ED7839;
+}
+.botao-topico{
+    position: relative;
+    left: 43.72%;
+    right: 43.72%;
+    top: 10px;
+   
+    
+    padding-bottom: 10px;
+}
+input[id=assuntoText]{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 1025px;
+    height: 33px;
+    margin-left: 15px;
+}
+input[id=conteudoText]{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 1025px;
+    height: 113px;
+    margin-left: 15px;
+}
+.card-topico{
+    margin-top: 5px;
+    padding-left: 5px;
+}
+/* footer {
+
+    position: absolute;
+    left: 1.22%;
+    right: 4.01%;
+    top: 90%;
+    bottom: 0%;
+    margin-left: 230px;
+    background: url(./imagem\ -\ footer.png);
+
+} */
