@@ -114,32 +114,42 @@
                 <br><br>
             </span>
             <span id="novoTopico">
-                <h3 class="discusoes-title4">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</h3>
-                <h2 class="discusoes-title2" >Assunto</h2>
+                <h3 class="discusoes-title3">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</h3>
+                <h2 class="discusoes-title5" >Assunto</h2>
                 <input type="text" name="Assunto" id="assuntoText">
-                <h2 class="discusoes-title2">Conteúdo</h2>
+                <h2 class="discusoes-title5">Conteúdo</h2>
                 <input type="text" name="Conteúdo" id="conteudoText">
+                <div class="barra">
+                    <img src="./imagens/Shape.png" class="shape">
+                    <img src="./imagens/Shape-i.png" class="shape">
+                    <button onclick="topicoEnviado()" id="enviar">Enviar </button>
+                </div>
                 <br><br>
-                <button onclick="topicoEnviado()" id="enviar">Enviar </button>
+                
             </span>
             <span id="topicoEnviado">
                 <h2 class="discusoes-title2" >Seu tópico foi enviado com sucesso! :D</h2>
-                <h3 class="discusoes-title5">Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</h3>
+                <h3 class="discusoes-title3">Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</h3>
                 <h3 class="discusoes-title6">Descubra outros trabalhos!</h3>
                 
                 <br><br>
-                <button onclick="enviarOutro()" id="enviarOutro">criar novo topico </button>
+                <button onclick="enviarOutro()" id="enviarOutro" >criar novo topico </button>
                 <img src="./imagens/card tópico aguardadando validação.png">
             </span>
 
             <span id="outroTopico">
                 <h3 class="discusoes-title4">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</h3>
-                <h2 class="discusoes-title2" >Assunto</h2>
+                <h2 class="discusoes-title5" >Assunto</h2>
                 <input type="text" name="Assunto" id="assuntoText">
-                <h2 class="discusoes-title2">Conteúdo</h2>
+                <h2 class="discusoes-title5">Conteúdo</h2>
                 <input type="text" name="Conteúdo" id="conteudoText">
+                <div class="barra">
+                    <img src="./imagens/Shape.png" class="shape">
+                    <img src="./imagens/Shape-i.png" class="shape">
+                    <button onclick="criarTopico()" id="enviar">Enviar </button>
+                </div>
                 <br><br>
-                <button onclick="criarTopico()" id="enviar">Enviar </button>
+                
             </span>
             
             <img src="./imagens/card de tópico.png" class="card-topico"> 
@@ -149,10 +159,13 @@
 
         </div>
 
+        
     </main>
-    <!-- <footer>
+    <footer>
         <img src="./imagens/imagem - footer.png">
-    </footer> -->
+    </footer>
+
+
     <script src="script.js"> </script>
 </body>
 </html>

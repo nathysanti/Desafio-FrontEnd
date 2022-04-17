@@ -66,6 +66,7 @@ function enviarOutro(){
     if(criarTopico.style.display === "none"){
         criarTopico.style.display="none";
         novoTopico.style.display="inline";
+        topicoEnviado.style.display="none";
         outroTopico.style.display="none"; 
 
     }else {
